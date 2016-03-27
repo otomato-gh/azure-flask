@@ -24,7 +24,7 @@ def contact():
         'contact.html',
         title='Contact',
         year=datetime.now().year,
-        message='Your contact page.'
+        message='Welcome to DevOps Course 2016.'
     )
 
 @app.route('/about')
@@ -34,5 +34,5 @@ def about():
         'about.html',
         title='About',
         year=datetime.now().year,
-        message='Your application description page.'
+        message='First Azure Flask App.'
     )
