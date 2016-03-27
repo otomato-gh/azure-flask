@@ -6,13 +6,14 @@ from datetime import datetime
 from flask import render_template
 from FlaskWebProject import app
 
+appname='DevOps Course 2016'
 @app.route('/')
 @app.route('/home')
 def home():
     """Renders the home page."""
     return render_template(
         'index.html',
-        title='Home Page',
+        title='Anton\'s Home Page',
         year=datetime.now().year,
     )
 
